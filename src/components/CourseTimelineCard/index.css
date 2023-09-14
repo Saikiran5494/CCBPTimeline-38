@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.course-card-con {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.heading {
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+.duration-con {
+  display: flex;
+  align-items: center;
+}
+.time {
+  margin-right: 5px;
+  margin-bottom: 12px;
+}
+.duration {
+  margin-top: 0px;
+  font-weight: bold;
+}
+.description {
+  font-size: 15px;
+  color: #171f46;
+  margin-top: 0px;
+}
+.tag-container {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 0px;
+}
+.tag {
+  background-color: #2b237c;
+  color: #ffffff;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+@media screen and (min-width: 768px) {
+  .course-card-con {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .heading {
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  .duration {
+    margin-top: 10px;
+  }
+  .time {
+    margin-bottom: 0px;
+  }
+  .tag-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .tag {
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,8 @@
+/* Write your CSS here */
+.projectImage {
+  width: 100%;
+}
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+}
